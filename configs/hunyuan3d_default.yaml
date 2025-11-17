@@ -1,0 +1,15 @@
+model_path: "tencent/Hunyuan3D-2"
+model_subfolder: "hunyuan3d-dit-v2-0"
+device: "cuda"
+torch_dtype: "float16"
+sampling_steps: 30
+default_output_dir: "outputs/"
+enable_texture: false
+texture_model_path: "tencent/Hunyuan3D-2"
+texture_subfolder: "hunyuan3d-paint-v2-0"
+texture_reference_field: "image"
+low_vram_mode: true
+enable_flashvdm: false
+hf_auth_token:
+
+
