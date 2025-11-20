@@ -3,5 +3,6 @@ Pillow
 PyYAML
 trimesh
 imageio
+rembg
 
 
